@@ -70,7 +70,8 @@ class BrnConvert {
                   FontWeight fontWeight =
                       BrnConvertUtil.generateFontWidgetByString(attr.value);
                   textStyle = textStyle.apply(
-                    fontWeightDelta: fontWeight.index - FontWeight.normal.index,
+                    fontWeightDelta:
+                        (fontWeight.value - FontWeight.normal.value) ~/ 100,
                   );
                   break;
                 case 'size':

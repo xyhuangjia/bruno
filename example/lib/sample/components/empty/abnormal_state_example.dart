@@ -73,8 +73,8 @@ class AbnomalStateExample extends StatelessWidget {
           content: '您的门店暂无用户',
           operateAreaType: OperateAreaType.singleButton,
           operateTexts: ["切换账号"],
-          action: (_) {
-            BrnToast.show("第$_个按钮被点击了", context);
+          action: (index) {
+            BrnToast.show("第$index个按钮被点击了", context);
           },
         );
         break;
@@ -88,8 +88,8 @@ class AbnomalStateExample extends StatelessWidget {
           content: '您还没有在维护的信息哦',
           operateAreaType: OperateAreaType.doubleButton,
           operateTexts: ['去添加', '去修改'],
-          action: (_) {
-            BrnToast.show("第$_个按钮被点击了", context);
+          action: (index) {
+            BrnToast.show("第$index个按钮被点击了", context);
           },
         );
         break;

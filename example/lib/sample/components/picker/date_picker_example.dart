@@ -127,9 +127,6 @@ class DatePickerExamplePage extends StatelessWidget {
       case BrnDateTimePickerMode.time:
         format = 'HH:mm:ss';
         break;
-      default:
-        format = 'yyyy-MMMM-dd';
-        break;
     }
 
     BrnDatePicker.showDatePicker(context,
@@ -244,8 +241,6 @@ class DatePickerExamplePage extends StatelessWidget {
               "onChange:  $startDateTime   $endDateTime     $startlist     $endlist",
               context);
         });
-        break;
-      default:
         break;
     }
   }

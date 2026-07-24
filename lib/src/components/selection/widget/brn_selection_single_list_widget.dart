@@ -51,11 +51,11 @@ class BrnSelectionSingleListWidget extends StatefulWidget {
     required this.themeData,
   }) : super(key: key) {
     items = items
-        .where((_) =>
-            _.filterType != BrnSelectionFilterType.range &&
-            _.filterType != BrnSelectionFilterType.date &&
-            _.filterType != BrnSelectionFilterType.dateRange &&
-            _.filterType != BrnSelectionFilterType.dateRangeCalendar)
+        .where((e) =>
+            e.filterType != BrnSelectionFilterType.range &&
+            e.filterType != BrnSelectionFilterType.date &&
+            e.filterType != BrnSelectionFilterType.dateRange &&
+            e.filterType != BrnSelectionFilterType.dateRangeCalendar)
         .toList();
 
     /// 当前 Items 所在的层级

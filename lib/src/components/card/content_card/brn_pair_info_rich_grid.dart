@@ -97,7 +97,7 @@ class BrnRichInfoGrid extends StatelessWidget {
           gridWidth = MediaQuery.of(context).size.width;
         }
         double itemHeight =
-            defaultConfig.itemHeight * (MediaQuery.textScaleFactorOf(context));
+            defaultConfig.itemHeight * (MediaQuery.textScalerOf(context).scale(1.0));
         double itemWidth = (gridWidth - defaultConfig.itemSpacing) / 2;
 
         var gridView = GridView.builder(

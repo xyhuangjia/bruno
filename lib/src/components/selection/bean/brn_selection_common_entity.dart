@@ -226,11 +226,11 @@ class BrnSelectionEntity {
       }
 
       /// 当 default 不在普通 Item 类型中时，尝试填充 同级别 Range Item.
-      if (children.where((_) => _.isSelected).toList().isEmpty) {
-        List<BrnSelectionEntity> rangeItems = this.children.where((_) {
-          return (_.filterType == BrnSelectionFilterType.range ||
-              _.filterType == BrnSelectionFilterType.dateRange ||
-              _.filterType == BrnSelectionFilterType.dateRangeCalendar);
+      if (children.where((e) => e.isSelected).toList().isEmpty) {
+        List<BrnSelectionEntity> rangeItems = this.children.where((e) {
+          return (e.filterType == BrnSelectionFilterType.range ||
+              e.filterType == BrnSelectionFilterType.dateRange ||
+              e.filterType == BrnSelectionFilterType.dateRangeCalendar);
         }).toList();
         BrnSelectionEntity? rangeEntity;
         if (rangeItems.isNotEmpty) {
@@ -252,10 +252,10 @@ class BrnSelectionEntity {
         entity.configDefaultValue();
       }
       if (hasCheckBoxBrother()) {
-        isSelected = children.where((_) => _.isSelected).isNotEmpty;
+        isSelected = children.where((e) => e.isSelected).isNotEmpty;
       } else {
         isSelected =
-            isSelected || children.where((_) => _.isSelected).isNotEmpty;
+            isSelected || children.where((e) => e.isSelected).isNotEmpty;
       }
     }
   }
@@ -351,19 +351,19 @@ class BrnSelectionEntity {
   List<BrnSelectionEntity> selectedListWithoutUnlimit() {
     List<BrnSelectionEntity> selected = selectedList();
     return selected
-        .where((_) => !_.isUnLimit())
-        .where((_) =>
-            (_.filterType != BrnSelectionFilterType.range) ||
-            (_.filterType == BrnSelectionFilterType.range &&
-                !BrunoTools.isEmpty(_.customMap)))
-        .where((_) =>
-            (_.filterType != BrnSelectionFilterType.dateRange) ||
-            (_.filterType == BrnSelectionFilterType.dateRange &&
-                !BrunoTools.isEmpty(_.customMap)))
-        .where((_) =>
-            (_.filterType != BrnSelectionFilterType.dateRangeCalendar) ||
-            (_.filterType == BrnSelectionFilterType.dateRangeCalendar &&
-                !BrunoTools.isEmpty(_.customMap)))
+        .where((e) => !e.isUnLimit())
+        .where((e) =>
+            (e.filterType != BrnSelectionFilterType.range) ||
+            (e.filterType == BrnSelectionFilterType.range &&
+                !BrunoTools.isEmpty(e.customMap)))
+        .where((e) =>
+            (e.filterType != BrnSelectionFilterType.dateRange) ||
+            (e.filterType == BrnSelectionFilterType.dateRange &&
+                !BrunoTools.isEmpty(e.customMap)))
+        .where((e) =>
+            (e.filterType != BrnSelectionFilterType.dateRangeCalendar) ||
+            (e.filterType == BrnSelectionFilterType.dateRangeCalendar &&
+                !BrunoTools.isEmpty(e.customMap)))
         .toList();
   }
 

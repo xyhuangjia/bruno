@@ -55,7 +55,14 @@ class _ForceGuideExampleState extends State<ForceGuideExample> {
   }
 
   Widget build(BuildContext context) {
-    return WillPopScope(
+    return PopScope(
+      canPop: true,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) {
+          // destroy guide page when tap back key
+          intro.dispose();
+        }
+      },
       child: Scaffold(
         appBar: BrnAppBar(
           title: Text(
@@ -149,11 +156,6 @@ class _ForceGuideExampleState extends State<ForceGuideExample> {
           },
         ),
       ),
-      onWillPop: () async {
-        // destroy guide page when tap back key
-        intro.dispose();
-        return true;
-      },
     );
   }
 }

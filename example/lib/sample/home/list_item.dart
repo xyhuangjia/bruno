@@ -52,8 +52,8 @@ class _ListItemState extends State<ListItem> with AutomaticKeepAliveClientMixin 
     return TextButton(
       onPressed: widget.onPressed,
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.white),
-        overlayColor: MaterialStateProperty.all(Colors.transparent),
+        backgroundColor: WidgetStateProperty.all(Colors.white),
+        overlayColor: WidgetStateProperty.all(Colors.transparent),
       ),
       child: Container(
           color: Colors.white,

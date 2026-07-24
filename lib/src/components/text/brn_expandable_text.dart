@@ -143,7 +143,7 @@ class _BrnExpandableTextState extends State<BrnExpandableText> {
 
   Widget _expandedText(context, String text) {
     return RichText(
-        textScaleFactor: MediaQuery.of(context).textScaleFactor,
+        textScaler: MediaQuery.textScalerOf(context),
         text: TextSpan(text: text, style: _defaultTextStyle(), children: [
           _foldButtonSpan(context),
         ]));

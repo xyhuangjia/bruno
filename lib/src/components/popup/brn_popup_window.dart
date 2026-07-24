@@ -244,7 +244,8 @@ class _BrnPopupWindowState extends State<BrnPopupWindow> {
   Widget build(BuildContext context) {
     return ExcludeSemantics(
       excluding: true,
-      child: WillPopScope(
+      child: PopScope(
+          canPop: true,
           child: GestureDetector(
             behavior: HitTestBehavior.translucent,
             onTap: () {
@@ -261,9 +262,7 @@ class _BrnPopupWindowState extends State<BrnPopupWindow> {
               ),
             ),
           ),
-          onWillPop: () {
-            return Future.value(true);
-          }),
+        ),
     );
   }
 

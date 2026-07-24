@@ -63,7 +63,7 @@ class BrnBigGhostButton extends StatelessWidget {
           width: width ?? double.infinity,
           height: defaultThemeConfig.bigButtonHeight),
       backgroundColor: bgColor ??
-          defaultThemeConfig.commonConfig.brandPrimary.withOpacity(0.05),
+          defaultThemeConfig.commonConfig.brandPrimary.withValues(alpha: 0.05),
       onTap: onTap,
       alignment: Alignment.center,
       text: title ?? BrnIntl.of(context).localizedResource.confirm,

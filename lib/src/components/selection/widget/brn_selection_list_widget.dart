@@ -232,7 +232,7 @@ class _BrnSelectionGroupViewState extends State<BrnListSelectionGroupWidget> {
                       begin: FractionalOffset.topCenter,
                       end: FractionalOffset.bottomCenter,
                       colors: [
-                        Colors.white.withOpacity(0),
+                        Colors.white.withValues(alpha: 0),
                         Colors.white,
                       ],
                       stops: [0, 1.0],
@@ -568,7 +568,7 @@ class _BrnSelectionGroupViewState extends State<BrnListSelectionGroupWidget> {
       entity.children.forEach((f) => _processSelectedStatus(f));
       if (entity.hasCheckBoxBrother()) {
         entity.isSelected =
-            entity.children.where((_) => _.isSelected).isNotEmpty;
+            entity.children.where((e) => e.isSelected).isNotEmpty;
       }
     }
   }

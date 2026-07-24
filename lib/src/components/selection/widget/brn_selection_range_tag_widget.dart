@@ -12,7 +12,6 @@ import 'package:flutter/material.dart';
 /// /// /// /// /// /// /// /// /// /
 class BrnSelectionRangeTagWidget extends StatefulWidget {
   /// tag 显示的文本
-  @required
   final List<BrnSelectionEntity> tagFilterList;
 
   /// 初始选中的 Index 列表

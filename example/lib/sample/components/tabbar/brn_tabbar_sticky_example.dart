@@ -37,7 +37,16 @@ class _BrnTabbarStickyExampleState extends State<BrnTabbarStickyExample>
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
+    return PopScope(
+        canPop: false,
+        onPopInvokedWithResult: (didPop, result) {
+          if (didPop) return;
+          if (closeWindowController!.isShow) {
+            closeWindowController!.closeMoreWindow();
+          } else {
+            Navigator.pop(context);
+          }
+        },
         child: Scaffold(
           appBar: BrnAppBar(
             title: 'TabBar Sticky 效果',
@@ -86,13 +95,7 @@ class _BrnTabbarStickyExampleState extends State<BrnTabbarStickyExample>
             ),
           ),
         ),
-        onWillPop: () {
-          if (closeWindowController!.isShow) {
-            closeWindowController!.closeMoreWindow();
-            return Future.value(false);
-          }
-          return Future.value(true);
-        });
+        );
   }
 
   Widget buildHeaderWidget() {

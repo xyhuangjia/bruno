@@ -255,7 +255,7 @@ class __FilterCommonTypeWidgetState extends State<_FilterCommonTypeWidget> {
               }
 
               data.parent?.children
-                  .where((_) => _.filterType == BrnSelectionFilterType.radio)
+                  .where((e) => e.filterType == BrnSelectionFilterType.radio)
                   .forEach((f) => f.isSelected = false);
               data.isSelected = !data.isSelected;
               //用于发送 标签点击事件

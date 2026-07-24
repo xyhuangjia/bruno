@@ -133,8 +133,8 @@ class _SelectionViewExamplePageState
                   return BrnCalendarView.single(
                       initStartSelectedDate: _currentCalendarSelectedDate.value,
                       initEndSelectedDate: _currentCalendarSelectedDate.value,
-                      dateChange: (_) {
-                        _currentCalendarSelectedDate.value = _;
+                      dateChange: (date) {
+                        _currentCalendarSelectedDate.value = date;
                       });
                 },
               ),

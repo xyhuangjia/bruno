@@ -308,8 +308,8 @@ class BrnAppBar extends PreferredSize {
       if (actions.isEmpty) {
         return actionList;
       }
-      List<Widget> tmp = (actions as List<Widget>).map((_) {
-        return (_ is BrnTextAction) ? _warpRealAction(_) : _;
+      List<Widget> tmp = (actions as List<Widget>).map((action) {
+        return (action is BrnTextAction) ? _warpRealAction(action) : action;
       }).toList();
 
       for (int i = 0, n = tmp.length; i < n; i++) {

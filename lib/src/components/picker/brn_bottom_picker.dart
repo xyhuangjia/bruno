@@ -115,10 +115,12 @@ class BrnBottomPickerWidgetState extends State<BrnBottomPickerWidget>
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        _controller.reverse();
-        return true;
+    return PopScope(
+      canPop: true,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) {
+          _controller.reverse();
+        }
       },
       child: Scaffold(
         backgroundColor: Color(0x33999999),

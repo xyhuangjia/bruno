@@ -79,7 +79,7 @@ class GifImageState extends State<GifImage> {
     return ValueListenableBuilder(
       ///数据发生变化时回调
       builder: (context, value, child) {
-        return _buildImage(value as List<ImageInfo>);
+        return _buildImage(value);
       },
 
       ///监听的数据

@@ -83,7 +83,7 @@ class BrnPickerEntity {
         entity.configDefaultValue();
       }
 
-      isSelected = isSelected || children.where((_) => _.isSelected).isNotEmpty;
+      isSelected = isSelected || children.where((e) => e.isSelected).isNotEmpty;
     }
   }
 
@@ -157,7 +157,7 @@ class BrnPickerEntity {
 
   List<BrnPickerEntity> selectedListWithoutUnlimit() {
     List<BrnPickerEntity> selected = selectedList();
-    return selected.where((_) => !_.isUnLimit()).toList();
+    return selected.where((e) => !e.isUnLimit()).toList();
   }
 
   List<BrnPickerEntity> selectedList() {

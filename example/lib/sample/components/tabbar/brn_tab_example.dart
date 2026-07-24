@@ -23,7 +23,16 @@ class _BrnTabExampleState extends State<BrnTabExample>
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
+    return PopScope(
+        canPop: false,
+        onPopInvokedWithResult: (didPop, result) {
+          if (didPop) return;
+          if (closeWindowController!.isShow) {
+            closeWindowController!.closeMoreWindow();
+          } else {
+            Navigator.pop(context);
+          }
+        },
         child: Scaffold(
           appBar: BrnAppBar(
             title: 'BrnTab示例',
@@ -72,13 +81,7 @@ class _BrnTabExampleState extends State<BrnTabExample>
             ),
           ),
         ),
-        onWillPop: () {
-          if (closeWindowController!.isShow) {
-            closeWindowController!.closeMoreWindow();
-            return Future.value(false);
-          }
-          return Future.value(true);
-        });
+    );
   }
 
   _createExpandedMoreTabbarWidgets() {

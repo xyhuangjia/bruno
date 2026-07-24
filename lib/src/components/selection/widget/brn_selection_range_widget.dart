@@ -664,18 +664,18 @@ class _BrnRangeSelectionGroupWidgetState
   bool _hasCalendarItem(BrnSelectionEntity entity) {
     bool hasCalendarItem = false;
     hasCalendarItem = entity.children
-            .where((_) =>
-                _.filterType == BrnSelectionFilterType.date ||
-                _.filterType == BrnSelectionFilterType.dateRangeCalendar)
+            .where((e) =>
+                e.filterType == BrnSelectionFilterType.date ||
+                e.filterType == BrnSelectionFilterType.dateRangeCalendar)
             .toList().isNotEmpty;
 
     /// 查找第二层级
     if (!hasCalendarItem) {
       for (BrnSelectionEntity subItem in entity.children) {
         int count = subItem.children
-            .where((_) =>
-                _.filterType == BrnSelectionFilterType.date ||
-                _.filterType == BrnSelectionFilterType.dateRangeCalendar)
+            .where((e) =>
+                e.filterType == BrnSelectionFilterType.date ||
+                e.filterType == BrnSelectionFilterType.dateRangeCalendar)
             .toList()
             .length;
         if (count > 0) {

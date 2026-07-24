@@ -36,7 +36,7 @@ class BrnStateTag extends StatelessWidget {
       textPadding: EdgeInsets.only(bottom: 0, left: 4, right: 4, top: 0),
       textColor: textColor ?? getTagColor(tagState),
       backgroundColor:
-          backgroundColor ?? getTagColor(tagState).withOpacity(0.1),
+          backgroundColor ?? getTagColor(tagState).withValues(alpha: 0.1),
     );
   }
 
@@ -53,8 +53,6 @@ class BrnStateTag extends StatelessWidget {
       case TagState.succeed:
         return Color(0xFF00AE66);
       case TagState.waiting:
-        return Color(0xFFFAAD14);
-      default:
         return Color(0xFFFAAD14);
     }
   }

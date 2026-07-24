@@ -560,7 +560,7 @@ class BrnTabBarState extends State<BrnTabBar> {
     // 获取 badgeTextWidth
     TextStyle badgeTextStyle = TextStyle(height: 1, fontSize: 10);
     TextPainter _badgeTextPainter =
-        TextPainter(textScaleFactor: MediaQuery.of(context).textScaleFactor);
+        TextPainter(textScaler: MediaQuery.textScalerOf(context));
     _badgeTextPainter.textDirection = TextDirection.ltr;
     _badgeTextPainter.maxLines = 1;
     _badgeTextPainter.text = TextSpan(text: _badgeText, style: badgeTextStyle);
