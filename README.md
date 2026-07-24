@@ -1,17 +1,17 @@
 
 
 <p align="center">
-  <a href="https://bruno.ke.com">
+  <a href="https://github.com/xyhuangjia/bruno">
     <img width="200" src="https://img.ljcdn.com/beike/zjz/bruno/img/1638883523735.jpg">
   </a>
 </p>
 
-<h1 align="center">Bruno</h1>
+<h1 align="center">Bruno Plus</h1>
 <div align="center">
 
-一套企业级移动端 Flutter 组件库
+一套企业级移动端 Flutter 组件库 · [bruno](https://github.com/LianjiaTech/bruno) 的持续维护分支，适配最新 Flutter SDK
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LianjiaTech/bruno/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/xyhuangjia/bruno/blob/3.x/LICENSE)
 
 </div>
 
@@ -23,9 +23,7 @@
 
 ![](https://img.ljcdn.com/beike/zjz/bruno/img/1638883534391.png)
 
-**Bruno 项目组诚邀用户参与调研反馈，我们珍视每一位用户的建议并纳入到后续规划中。同时为了增进 Bruno 用户间交流要求，我们建立了社区群，欢迎大家加入**:point_down:
-
-<img width="180" height="180" src="https://img.ljcdn.com/beike/zjz/bruno/img/1664527706459.png"  /><img width="180" height="180" src="https://img.ljcdn.com/beike/zjz/bruno/img/1664526385904.png"  />
+> **bruno_plus** 是 [bruno](https://github.com/LianjiaTech/bruno)（贝壳企业级 Flutter 组件库）的持续维护分支。原仓库已停止更新，本仓库适配最新 Flutter / Dart SDK 并持续修复问题。组件类名与 API（`Brn` 前缀）完全兼容，使用者仅需将导入路径从 `package:bruno/bruno.dart` 改为 `package:bruno_plus/bruno_plus.dart` 即可无缝迁移。
 
 
 
@@ -38,14 +36,14 @@
 
 ### Demo 下载
 
-请从 [发版包](https://github.com/LianjiaTech/bruno/releases) 中获取，或访问官网导航栏中的 [在线演示](https://bruno.ke.com/page/demo) 功能
+请从 [发版包](https://github.com/xyhuangjia/bruno/releases) 中获取，或访问原官网导航栏中的 [在线演示](https://bruno.ke.com/page/demo) 功能
 
 
 ## 适配 Flutter 版本
 
  
 
-| Bruno 版本 | Flutter SDK 版本 |
+| bruno_plus 版本 | Flutter SDK 版本 |
 | ---------- | ---------------- |
 | 1.0.0      | 1.22.4           |
 | 2.0.0      | 2.2.2            |
@@ -58,6 +56,8 @@
 | 3.4.0 | 3.10.0 |
 | 3.4.1 | 3.10.0 |
 | 3.4.2 | 3.10.0 |
+| 3.4.3 | 3.10.0 |
+| 3.5.0 (更名为 bruno_plus) | 3.44.0 |
 
 
 
@@ -65,9 +65,9 @@
 
 Flutter 工程中 pubspec.yaml 文件里加入以下依赖：
 
-```dart
+```yaml
 dependencies:
-  bruno: version
+  bruno_plus: ^3.5.0
      
 ```
 

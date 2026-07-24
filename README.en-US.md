@@ -1,19 +1,19 @@
 
 
 <p align="center">
-  <a href="https://bruno.ke.com">
+  <a href="https://github.com/xyhuangjia/bruno">
     <img width="200" src="https://img.ljcdn.com/beike/zjz/bruno/img/1638883523735.jpg">
   </a>
 </p>
 
 
 
-<h1 align="center">Bruno</h1>
+<h1 align="center">Bruno Plus</h1>
 <div align="center">
 
-An enterprise-class package of Flutter components for mobile applications.
+An enterprise-class package of Flutter components for mobile applications. · A maintained fork of [bruno](https://github.com/LianjiaTech/bruno), adapted to the latest Flutter SDK.
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LianjiaTech/bruno/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/xyhuangjia/bruno/blob/3.x/LICENSE)
 
 </div>
 
@@ -27,9 +27,7 @@ An enterprise-class package of Flutter components for mobile applications.
 
 ![](https://img.ljcdn.com/beike/zjz/bruno/img/1638883534391.png)
 
-Bruno invites you to participate in the research! We will plan the roadmap according to your feedback. A community group has also been set up for developers to communicate and welcome to join:point_down:.
-
-<img width="180" height="180" src="https://img.ljcdn.com/beike/zjz/bruno/img/1664527706459.png"  /><img width="180" height="180" src="https://img.ljcdn.com/beike/zjz/bruno/img/1664526385904.png"  />
+> **bruno_plus** is a maintained fork of [bruno](https://github.com/LianjiaTech/bruno) (an enterprise-class Flutter component library by Beike). The original repository is no longer maintained; this repo adapts to the latest Flutter / Dart SDK and keeps fixing issues. Component class names and APIs (`Brn` prefix) are fully compatible — to migrate, simply change the import path from `package:bruno/bruno.dart` to `package:bruno_plus/bruno_plus.dart`.
 
 
 ## ✨ Features
@@ -41,12 +39,12 @@ Bruno invites you to participate in the research! We will plan the roadmap accor
 
 ### Demo download
 
-Please download from [Releases](https://github.com/LianjiaTech/bruno/releases) or visit the website of the navigation bar [Online Demo](https://bruno.ke.com/page/demo).
+Please download from [Releases](https://github.com/xyhuangjia/bruno/releases) or visit the website of the navigation bar [Online Demo](https://bruno.ke.com/page/demo).
 
 ## Adapted version of Flutter
 
 
-| Bruno Version | Flutter SDK Version |
+| bruno_plus Version | Flutter SDK Version |
 | ---------- | ---------------- |
 | 1.0.0      | 1.22.4           |
 | 2.0.0      | 2.2.2            |
@@ -58,21 +56,24 @@ Please download from [Releases](https://github.com/LianjiaTech/bruno/releases) o
 | 3.3.0 | 3.7.0 |
 | 3.4.0 | 3.10.0 |
 | 3.4.1 | 3.10.0 |
+| 3.4.2 | 3.10.0 |
+| 3.4.3 | 3.10.0 |
+| 3.5.0 (renamed to bruno_plus) | 3.44.0 |
 
 
 ## Preparing for use
 
 Add the following dependencies to the `pubspec.yaml` file:
 
-```dart
+```yaml
 dependencies:
-  bruno: version
+  bruno_plus: ^3.5.0
 ```
 
 ## Simple usage
 
 ```dart
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 ...
 BrnBubbleText(
   maxLines: 3,
