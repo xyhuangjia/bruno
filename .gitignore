@@ -3,6 +3,11 @@
 *.log
 *.pyc
 *.swp
+
+# Local config & build artifacts (must not be published)
+/local.properties
+AGENTS.md
+example/ios/Flutter/ephemeral/
 .DS_Store
 .atom/
 .buildlog/
