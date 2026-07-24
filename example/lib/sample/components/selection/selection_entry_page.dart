@@ -2,7 +2,7 @@
 
 import 'dart:convert';
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:example/sample/components/selection/selectionview_custom_floating_layer_example.dart';
 import 'package:example/sample/components/selection/selectionview_customhandle_filter_example_page.dart';
 import 'package:example/sample/components/selection/selectionview_customview_example_page.dart';

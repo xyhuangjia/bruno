@@ -1,8 +1,8 @@
-import 'package:bruno/src/components/selection/bean/brn_filter_entity.dart';
-import 'package:bruno/src/components/selection/bean/brn_selection_common_entity.dart';
-import 'package:bruno/src/components/selection/brn_selection_view.dart';
-import 'package:bruno/src/constants/brn_constants.dart';
-import 'package:bruno/src/theme/configs/brn_selection_config.dart';
+import 'package:bruno_plus/src/components/selection/bean/brn_filter_entity.dart';
+import 'package:bruno_plus/src/components/selection/bean/brn_selection_common_entity.dart';
+import 'package:bruno_plus/src/components/selection/brn_selection_view.dart';
+import 'package:bruno_plus/src/constants/brn_constants.dart';
+import 'package:bruno_plus/src/theme/configs/brn_selection_config.dart';
 import 'package:flutter/material.dart';
 
 typedef BrnSimpleSelectionOnSelectionChanged = void Function(

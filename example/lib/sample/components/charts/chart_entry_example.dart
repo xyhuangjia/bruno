@@ -1,7 +1,7 @@
 
 
 import 'dart:math';
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 
 import 'package:flutter/material.dart';
 

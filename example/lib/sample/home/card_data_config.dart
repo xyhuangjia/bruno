@@ -2,7 +2,7 @@
 
 import 'dart:convert';
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:example/sample/components/actionsheet/actionsheet_entry_page.dart';
 import 'package:example/sample/components/appraise/appraise_example.dart';
 import 'package:example/sample/components/bottom_tabbar/bottom_tabbar_example.dart';

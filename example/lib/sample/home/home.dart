@@ -1,6 +1,6 @@
 
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:example/sample/home/card_data_config.dart';
 import 'package:example/sample/home/group_card.dart';
 import 'package:flutter/material.dart';

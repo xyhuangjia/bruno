@@ -34,7 +34,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 dependency_overrides:
-  bruno:
+  bruno_plus:
     path: ../
   intl: 0.20.3
 

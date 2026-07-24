@@ -1,4 +1,4 @@
-import 'package:bruno/src/components/selectcity/brn_az_common.dart';
+import 'package:bruno_plus/src/components/selectcity/brn_az_common.dart';
 
 /// 城市选择数据类
 class BrnSelectCityModel extends ISuspensionBean {

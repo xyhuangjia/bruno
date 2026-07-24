@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 
 class GeneralFormExamplePage extends StatelessWidget {
   final String _title;

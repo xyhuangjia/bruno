@@ -1,9 +1,9 @@
-import 'package:bruno/src/components/popup/brn_popup_window.dart';
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/utils/brn_multi_click_util.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/components/popup/brn_popup_window.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/utils/brn_multi_click_util.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 /// 多个文字按钮组成的按钮集合

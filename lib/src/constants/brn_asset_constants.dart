@@ -124,7 +124,7 @@ class BrnAsset {
   static const String iconCall = 'images/icon_call.png';
   static const String iconCallDisable = 'images/icon_call_disable.png';
   static const String personPlaceHolder =
-      'packages/bruno/assets/icons/img_avatar_new.png';
+      'packages/bruno_plus/assets/icons/img_avatar_new.png';
 
   /// radio组件，用于单选和多选
   static const String iconRadioMultiSelected =

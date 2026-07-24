@@ -1,7 +1,7 @@
 
 
 import 'dart:async';
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:flutter/material.dart';
 
 /// @desc    强引导example

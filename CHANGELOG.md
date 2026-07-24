@@ -1,3 +1,14 @@
+## [3.5.0] - 2026-07-24
+
+### Changed
+
+Forked and renamed from `bruno` to `bruno_plus`.
+
+- Renamed package from `bruno` to `bruno_plus` (import path is now `package:bruno_plus/bruno_plus.dart`).
+- Adapted to Flutter 3.44 / Dart 3.12: replaced all deprecated APIs (`withOpacity`, `textScaleFactor`, `WillPopScope`, `MaterialStateProperty`, `Color.alpha`, etc.).
+- Fixed Dart 3.7+ wildcard variable `_` compilation errors.
+- `flutter analyze`: 0 issues.
+
 ## [3.4.3] - 2023-9-13
 
 ### Changed

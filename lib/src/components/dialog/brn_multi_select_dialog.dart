@@ -1,9 +1,9 @@
-import 'package:bruno/src/components/dialog/brn_content_export_dialog.dart';
-import 'package:bruno/src/components/line/brn_line.dart';
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/components/dialog/brn_content_export_dialog.dart';
+import 'package:bruno_plus/src/components/line/brn_line.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 typedef BrnMultiSelectDialogClickSubmitCallback = bool Function(

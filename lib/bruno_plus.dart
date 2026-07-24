@@ -1,4 +1,4 @@
-library bruno;
+library bruno_plus;
 
 // 主题
 export 'src/theme/brn_theme.dart';

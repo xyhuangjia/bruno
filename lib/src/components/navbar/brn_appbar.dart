@@ -1,7 +1,7 @@
 import 'package:bindings_compatible/bindings_compatible.dart';
-import 'package:bruno/src/components/line/brn_line.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/theme/configs/brn_appbar_config.dart';
+import 'package:bruno_plus/src/components/line/brn_line.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/theme/configs/brn_appbar_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

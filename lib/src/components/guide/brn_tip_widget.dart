@@ -1,9 +1,9 @@
-import 'package:bruno/src/components/button/brn_icon_button.dart';
-import 'package:bruno/src/components/guide/brn_flutter_guide.dart';
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/components/button/brn_icon_button.dart';
+import 'package:bruno_plus/src/components/guide/brn_flutter_guide.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 /// 引导组件试，[force] 有蒙层遮挡，[soft] 无蒙层遮挡

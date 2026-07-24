@@ -1,6 +1,6 @@
-import 'package:bruno/src/components/dialog/brn_dialog.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/brn_theme.dart';
+import 'package:bruno_plus/src/components/dialog/brn_dialog.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/brn_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

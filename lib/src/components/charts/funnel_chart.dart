@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:ui' as ui;
 
-import 'package:bruno/src/components/charts/radar_chart.dart';
+import 'package:bruno_plus/src/components/charts/radar_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 

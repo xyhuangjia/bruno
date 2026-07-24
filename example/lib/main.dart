@@ -1,4 +1,4 @@
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'sample/l10n/l10n.dart';
 import 'package:example/sample/home/home.dart';
 import 'package:flutter/material.dart';

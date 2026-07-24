@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/configs/brn_gallery_detail_config.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/configs/brn_gallery_detail_config.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 /// [fold] 收起状态

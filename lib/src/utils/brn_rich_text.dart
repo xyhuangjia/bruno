@@ -1,5 +1,5 @@
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/utils/css/brn_core_funtion.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/utils/css/brn_core_funtion.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

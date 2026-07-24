@@ -1,10 +1,10 @@
-import 'package:bruno/src/components/selection/bean/brn_selection_common_entity.dart';
-import 'package:bruno/src/components/selection/brn_selection_util.dart';
-import 'package:bruno/src/components/selection/widget/brn_selection_common_item_widget.dart';
-import 'package:bruno/src/components/selection/widget/brn_selection_list_widget.dart';
-import 'package:bruno/src/components/toast/brn_toast.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/configs/brn_selection_config.dart';
+import 'package:bruno_plus/src/components/selection/bean/brn_selection_common_entity.dart';
+import 'package:bruno_plus/src/components/selection/brn_selection_util.dart';
+import 'package:bruno_plus/src/components/selection/widget/brn_selection_common_item_widget.dart';
+import 'package:bruno_plus/src/components/selection/widget/brn_selection_list_widget.dart';
+import 'package:bruno_plus/src/components/toast/brn_toast.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/configs/brn_selection_config.dart';
 import 'package:flutter/material.dart';
 
 /// 单列选择子组件

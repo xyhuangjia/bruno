@@ -1,6 +1,6 @@
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/theme/brn_theme.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/theme/brn_theme.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 /// 删除模式的标签

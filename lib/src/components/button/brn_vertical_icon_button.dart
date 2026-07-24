@@ -1,4 +1,4 @@
-import 'package:bruno/src/components/button/brn_icon_button.dart';
+import 'package:bruno_plus/src/components/button/brn_icon_button.dart';
 import 'package:flutter/material.dart';
 
 ///

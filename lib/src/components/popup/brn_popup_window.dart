@@ -1,9 +1,9 @@
 import 'dart:core';
 
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/utils/brn_text_util.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/utils/brn_text_util.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,5 @@
-import 'package:bruno/src/constants/brn_asset_constants.dart';
-import 'package:bruno/src/utils/brn_tools.dart';
+import 'package:bruno_plus/src/constants/brn_asset_constants.dart';
+import 'package:bruno_plus/src/utils/brn_tools.dart';
 import 'package:flutter/material.dart';
 
 /// 星星视图的自定义构造器

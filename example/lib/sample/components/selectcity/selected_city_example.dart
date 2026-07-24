@@ -2,7 +2,7 @@
 
 import 'dart:convert';
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:lpinyin/lpinyin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

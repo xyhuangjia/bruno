@@ -1,6 +1,6 @@
-import 'package:bruno/src/components/picker/brn_tags_picker_config.dart';
-import 'package:bruno/src/l10n/brn_intl.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/components/picker/brn_tags_picker_config.dart';
+import 'package:bruno_plus/src/l10n/brn_intl.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
 import 'package:flutter/material.dart';
 
 /// 描述: 标签组，支持多选

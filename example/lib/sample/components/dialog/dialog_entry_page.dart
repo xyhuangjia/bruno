@@ -1,4 +1,4 @@
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:example/sample/home/list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

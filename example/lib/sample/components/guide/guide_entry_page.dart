@@ -1,6 +1,6 @@
 
 
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:example/sample/components/guide/force_guide_example.dart';
 import 'package:example/sample/components/guide/soft_intro_example.dart';
 import 'package:example/sample/home/list_item.dart';

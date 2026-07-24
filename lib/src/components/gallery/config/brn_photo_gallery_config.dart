@@ -1,9 +1,9 @@
-import 'package:bruno/src/components/gallery/config/brn_basic_gallery_config.dart';
-import 'package:bruno/src/components/gallery/config/brn_bottom_card.dart';
-import 'package:bruno/src/components/loading/brn_loading.dart';
-import 'package:bruno/src/constants/brn_strings_constants.dart';
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
-import 'package:bruno/src/theme/configs/brn_gallery_detail_config.dart';
+import 'package:bruno_plus/src/components/gallery/config/brn_basic_gallery_config.dart';
+import 'package:bruno_plus/src/components/gallery/config/brn_bottom_card.dart';
+import 'package:bruno_plus/src/components/loading/brn_loading.dart';
+import 'package:bruno_plus/src/constants/brn_strings_constants.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/theme/configs/brn_gallery_detail_config.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 

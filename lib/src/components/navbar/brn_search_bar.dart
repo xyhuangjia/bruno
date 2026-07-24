@@ -1,6 +1,6 @@
 import 'package:bindings_compatible/bindings_compatible.dart';
-import 'package:bruno/bruno.dart';
-import 'package:bruno/src/components/navbar/brn_appbar_theme.dart';
+import 'package:bruno_plus/bruno_plus.dart';
+import 'package:bruno_plus/src/components/navbar/brn_appbar_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

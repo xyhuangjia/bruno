@@ -1,4 +1,4 @@
-import 'package:bruno/src/theme/brn_theme_configurator.dart';
+import 'package:bruno_plus/src/theme/brn_theme_configurator.dart';
 import 'package:flutter/painting.dart';
 
 /// 将标签属性转为对应的 style

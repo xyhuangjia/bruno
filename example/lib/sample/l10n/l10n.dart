@@ -1,4 +1,4 @@
-import 'package:bruno/bruno.dart';
+import 'package:bruno_plus/bruno_plus.dart';
 import 'package:flutter/cupertino.dart';
 
 class ChangeLocalEvent extends Notification{
