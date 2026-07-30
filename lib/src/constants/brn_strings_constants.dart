@@ -2,5 +2,5 @@ class BrnStrings {
   const BrnStrings._();
 
   /// to load assets resource
-  static const String flutterPackageName = "bruno";
+  static const String flutterPackageName = "bruno_plus";
 }
