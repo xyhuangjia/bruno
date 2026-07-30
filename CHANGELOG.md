@@ -1,3 +1,9 @@
+## [3.5.1] - 2026-07-30
+
+### Fixed
+
+- 修复 `bruno` → `bruno_plus` 改名后所有内置图片资源加载失败的问题：包名常量 `flutterPackageName` 仍为旧值 `"bruno"`，导致运行期按 `packages/bruno/...` 查找资源时全部抛出 `Unable to load asset`（返回图标、占位图、城市选择数据、表情评分等均受影响）。现改为 `"bruno_plus"`，资源可正常加载。
+
 ## [3.5.0] - 2026-07-24
 
 ### Changed
